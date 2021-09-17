@@ -16,7 +16,7 @@ public class DepositCalculator {
         return Math.round(value * scale) / scale;
     }
 
-    void getPercentageOfDeposit( ) {
+    void getPercentageOfDeposit() {
         int period;
         int action;
         int amount;
@@ -25,7 +25,7 @@ public class DepositCalculator {
         System.out.println("Введите сумму вклада в рублях:");
         amount = scanner.nextInt();
 
-        System.out.println("Введите срок вклада в годах:") ;
+        System.out.println("Введите срок вклада в годах:");
         period = scanner.nextInt();
 
         System.out.println("Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
